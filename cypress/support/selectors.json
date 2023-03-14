@@ -1,0 +1,68 @@
+{
+  "LoginPage": {
+    "IngresarButton": ".items-center button.inline-block",
+    "RUCText": "[name=ruc]",
+    "PassText": "[name=password]",
+    "IngresarUserPassButton": "[data-testid=btnSubmitLogin]",
+    "UserNameText": "[data-testid=entityGreeting]"
+  },
+  "HomePage": {
+    "MiCuenta": ".gap-x-2.py-3",
+    "PopUp": ".fill-primary-600",
+    "MiCuentaStage": "[data-testid=linkMyAccount]",
+    "UserDropDown": "[data-testid=btnDropDownHomeMenu]",
+    "MisPedidos": "[data-testid=linkMyOrders]",
+    "EstadoDeCuenta": "[data-testid=linkAccountState]",
+    "ListaAgregarButton": "[data-testid=ProductCard-addToCart]"
+  },
+  "MiCuenta": {
+    "Cliente": "[data-testid=titleClientEntityName]",
+    "MiCuentaTitle": "[data-testid=titleMyAccount]",
+    "Information": "[data-testid=accountInformation]"
+  },
+  "MisPuntos": {
+    "MisPuntosTitle": "h5.antialiased.text-title24",
+    "Titulos": "h5.antialiased.text-title20"
+  },
+  "MisPedidos": {
+    "MisPedidosTitle": "[data-testid=titleMyOrders]",
+    "PedidosEnCurso": "[data-testid=titleOngoingOrders]",
+    "ListaDePedidos": "[data-testid=MyOrdersList]",
+    "PedidosInProgress":"[data-testid=MyOrdersListItem-InProgress]"
+  },
+  "EstadoDeCuenta": {
+    "EstadoDeCuentaTitle": "[data-testid=titleAccountState]",
+    "EstadoDeCuentaInfo": "[data-testid=infoAccountState]",
+    "PedidosPorPagar": "[data-testid=titleOrdersToPay]"
+  },
+  "Carrito": {
+    "FinalizarPedidoButton": "[data-testid=SummaryTotalsButton]"
+  },
+  "Checkout": {
+    "FinalizarPedidoButton": "[data-testid=SummaryTotalsButton]",
+    "VerSeguimiento": "[data-testid=Button-handleGoToTracking]",
+    "IrAlInicioButton": "[data-testid=Button-handleGoToHome]",
+    "DireccionPedido": "[css='1']",
+    "FechaHoraPedido": "[css='2']",
+    "MetodoDePagoPedido": "[css='3']",
+    "ListaDeElementos": "div.p-4",
+    "DatosDeObra": {
+      "Direccion": "[name=address]",
+      "Distrito": "[name=district]",
+      "Referencia": "[name=reference]",
+      "DNI": "[name=contactIdentificationNumber]",
+      "NombreApellido": "[name=contactName]",
+      "Telefono": "[name=contactPhone]",
+      "GuardarDatos": "[type=submit]"
+    },
+    "FechaHora": {
+      "ListaDias": "[data-testid=daysList]",
+      "HorarioTarde": "[data-testid=formInputRadioAfternoonDate-card]",
+      "SeleccionarButton": "[type=submit]"
+    },
+    "MetodosPago": {
+      "ListaMetodosPago": "div.py-1",
+      "SeleccionarButton": "[type=submit]"
+    }
+  }
+}
